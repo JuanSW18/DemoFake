@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">DemoFake</string>
+    <string name="options_title">Lista de opciones</string>
+    <string name="txt_suma">Sumar</string>
+    <string name="txt_resta">Restar</string>
+    <string name="txt_mult">Multiplicar</string>
+    <string name="txt_div">Dividir</string>
+    <string name="title_result">Resultado</string>
+    <string name="txt_result">-</string>
+    <string name="hint_first_number">Ingrese el primer número</string>
+    <string name="hint_second_number">Ingrese el segundo número</string>
+    <string name="btn_run">Efectuar operación</string>
 </resources>
