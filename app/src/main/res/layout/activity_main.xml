@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".presentation.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,6 +31,7 @@
                 android:id="@+id/rbtnSuma"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:checked="true"
                 android:text="@string/txt_suma"/>
 
             <RadioButton
@@ -65,20 +66,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hint_first_number"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="10dp"
+            android:inputType="numberSigned"/>
 
         <EditText
             android:id="@+id/etSecondNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hint_second_number"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="10dp"
+            android:inputType="numberSigned"/>
 
         <Button
             android:id="@+id/btnRunOperation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btn_run"/>
+            android:text="@string/btn_run"
+            android:onClick="runOperation"/>
 
     </LinearLayout>
 
